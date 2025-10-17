@@ -94,7 +94,7 @@ const Nav = ({ search, setSearch }) => {
         </div>
 
         {/*  Mobile Menu Toggle */}
-        <button onClick={toggle} className="lg:hidden text-gray-700">
+        <button onClick={toggle} className="lg:hidden text-gray-700 z-50">
           {sideBar ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
